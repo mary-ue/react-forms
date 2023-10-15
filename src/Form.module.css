@@ -22,16 +22,22 @@
   padding: 5px 10px;
 }
 
+.input[aria-invalid="true"] {
+  outline: 2px solid tomato;
+}
+
 .error {
   margin: 0;
   position: absolute;
-  top: 2px;
+  max-width: 250px;
+  top: -10px;
   right: 0;
-  font-size: 16px;
+  font-size: 12px;
   color: tomato;
 }
 
 .wrapCheckbox {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
